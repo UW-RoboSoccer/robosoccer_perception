@@ -6,7 +6,6 @@ from geometry_msgs.msg import PoseStamped
 class PerceptionNode(Node):
     def __init__(self):
         super().__init__('perception_node')
-        self.create_subscription(Image, '/camera/image_raw', self.image_callback, 10)
         self.ball_pub = self.create_publisher(PoseStamped, '/ball_pose', 10)
         # TODO: Add perception logic (ball detection, etc)
 

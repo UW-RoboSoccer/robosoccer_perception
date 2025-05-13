@@ -2,7 +2,7 @@
   <name>robosoccer_perception</name>
   <version>0.0.1</version>
   <description>Perception nodes for RoboSoccer</description>
-  <maintainer email="YOUR_EMAIL">YOUR_NAME</maintainer>
+  <maintainer email="uwrobosoccer@gmail.com">UWRS</maintainer>
   <license>MIT</license>
   <buildtool_depend>ament_python</buildtool_depend>
   <exec_depend>rclpy</exec_depend>

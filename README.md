@@ -9,5 +9,5 @@ It finds:
 * `PoseStamped`: `/ball_pose`: Position of the ball
 
 
-### Subscribes to
-* `Image`: `/camera/image_raw`: Raw camera reading from robot
+<!-- ### Subscribes to
+* `Image`: `/camera/image_raw`: Raw camera reading from robot -->
