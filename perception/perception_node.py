@@ -10,9 +10,6 @@ class PerceptionNode(Node):
         self.get_logger().info('Perception node has started.')
         # TODO: Add perception logic (ball detection, etc)
 
-    def image_callback(self, msg):
-        # TODO: Process image and publish ball pose
-        pass
 
 def main(args=None):
     rclpy.init(args=args)
