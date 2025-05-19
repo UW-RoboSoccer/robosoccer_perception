@@ -7,6 +7,7 @@ class PerceptionNode(Node):
     def __init__(self):
         super().__init__('perception_node')
         self.ball_pub = self.create_publisher(PoseStamped, '/ball_pose', 10)
+        self.get_logger().info('Perception node has started.')
         # TODO: Add perception logic (ball detection, etc)
 
     def image_callback(self, msg):
